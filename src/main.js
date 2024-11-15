@@ -7,7 +7,7 @@ function regionGenerator(array) {
     for (let x = 0; x < array.length; x++) {
 
         let item = document.createElement("li");
-        item.style.backgroundImage = `url("${array[x].image2}")`;
+        item.style.backgroundImage = `url("${randomImage(array,x)}")`;
 
         let containerText = document.createElement("div");
         let name_region = document.createElement("h3");
@@ -26,4 +26,14 @@ function regionGenerator(array) {
 
 // FUNÇÃO PARA IMAGENS RANDOMICAMENTE
 
-regionGenerator(data_region);
+const randomImage = (list, item) => {
+     let random = Math.floor(Math.random() * 2);
+
+     if (random == 1) {
+        return list[item].image1;
+     } else {
+        return list[item].image2;
+     }
+}
+
+regionGenerator(data_region);b
