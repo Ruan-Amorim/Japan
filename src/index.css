@@ -75,8 +75,10 @@ section#home {
     left: 50%;
     text-align: center;
     transform: translate(-50%,-50%);
-    font-size: clamp(2rem,3vw,10rem);
+    font-size: clamp(2.3rem,3vw,10rem);
     font-family: 'katana_2';
+    white-space: nowrap;
+    letter-spacing: 1.2px;
     text-shadow: 1px 1px 3px #35000098;
     z-index: 1;
 }
