@@ -3,7 +3,7 @@ export  const data_region = [
         "name": "Hokkaido",
 
         "image1": 'https://jingdailyculture.com/wp-content/uploads/2019/01/hokkaido-compressor.jpg',
-        "image2": 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUNefjSgSRsoLs_L2QnFhvoGFxNC_2s9lNA&s',
+        "image2": 'https://japanstartshere.com/wp-content/uploads/2021/04/Goryokaku.jpg',
 
         "small_text": 'Hokkaido é a região mais ao norte do Japão, conhecida por suas paisagens naturais, invernos rigorosos e estações de esqui.',
         "large_text": 'Hokkaido é a segunda maior ilha do Japão e famosa por suas vastas paisagens naturais, incluindo montanhas, lagos e campos de flores. O clima frio atrai turistas para esportes de inverno e festivais de neve, como o famoso Festival de Neve de Sapporo. No verão, a ilha se transforma com belos campos de lavanda e áreas ideais para caminhadas.',
@@ -65,8 +65,8 @@ export  const data_region = [
     {
         "name": "Kyushu e Okinawa",
 
-        "image1": 'https://a.travel-assets.com/findyours-php/viewfinder/images/res40/458000/458464-Nagasaki-City.jpg',
-        "image2": 'https://a.travel-assets.com/findyours-php/viewfinder/images/res70/488000/488511-kyushu-and-okinawa.jpg',
+        "image1": 'https://a.travel-assets.com/findyours-php/viewfinder/images/res70/465000/465259-Kyushu-And-Okinawa.jpg',
+        "image2": 'https://gigexchange.com/assets/images/internal/kyushu-okinawa-japan.jpg',
 
         "small_text": 'Kyushu combina história rica, vulcões ativos e cidades modernas como Fukuoka.Okinawa é um arquipélago tropical famoso por suas praias paradisíacas.',
         "large_text": 'Kyushu, a terceira maior ilha do Japão, é uma mistura de cultura antiga e fenômenos naturais. É lar do vulcão ativo Monte Aso, fontes termais em Beppu e cidades modernas como Fukuoka, conhecida por sua cena gastronômica vibrante. Com sua rica história e paisagens diversificadas, Kyushu é um destino para todos os gostos.<br>Okinawa é um conjunto de ilhas tropicais no sul do Japão, conhecidas por suas águas cristalinas, recifes de corais e cultura distinta. Com um clima quente o ano todo, é um destino popular para mergulho e relaxamento. A região também tem uma história única, sendo o antigo Reino de Ryukyu, com uma identidade cultural diferente do restante do Japão.',
