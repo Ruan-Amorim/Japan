@@ -57,6 +57,7 @@ ul {
 section#home {
     position: relative;
     height: 50vh;
+    align-items: center;
     background-image: url("https://byfood.b-cdn.net/api/public/assets/56680/content?optimizer=image");
 }
 #home::after {
@@ -98,7 +99,7 @@ section#home {
     position: relative;
 }
 #container_regioes_do_japao > h2 {
-    margin: 1rem;
+    margin: 1.5rem 0 0 0;
 }
 #lista_de_lugares {
     display: flex;
@@ -108,10 +109,48 @@ section#home {
     justify-content: flex-start;
     overflow-x: scroll;
 }
+#lista_de_lugares::-webkit-scrollbar {
+    display: block;
+    height: 12px; 
+    background: #fff;
+    border-radius: 6px; 
+}
+#lista_de_lugares::-webkit-scrollbar-track {
+    background: #ffe6e6; 
+    border-radius: 6px;
+}
+#lista_de_lugares::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #e60000, #ff4d4d); 
+    border-radius: 6px; 
+    border: 2px solid #fff; 
+}
+#lista_de_lugares::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(90deg, #ff0000, #e60000); 
+}
 #lista_de_lugares > li {
+    position: relative;
     display: block;
     min-width: 300px;
     height: 450px;
-    margin: 0 10px;
+    margin: 0 20px;
     background-color: red;
+    border-radius: 2px;
+    border: 1px solid whitesmoke;
+}
+#container_text_preview {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 45%;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.973), rgba(0, 0, 0, 0.918), rgba(0, 0, 0, 0.514),rgba(0, 0, 0, 0.295) );
+    align-items: center;
+    justify-content: space-around;
+}
+#container_text_preview > h3 {
+    font-size: clamp(1.5rem, 2vw, 5rem);
+    font-family: shuriken;
+    letter-spacing: 2px;
 }
