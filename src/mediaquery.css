@@ -2,5 +2,19 @@
 @media screen and (min-width: 200px) and (max-width: 450px) {
     #container_regioes_do_japao > h2 {
         transform: translateY(150%);
+    }    
+    #container_principal_sobre {
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+        height: 70vh;
+        max-height: 80vh;
+        margin: 20vh auto auto auto;
+        background: rgb(59, 59, 59);
+    }
+    #container_texto_sobre > p {
+        text-align: center;
+        margin: 10vw 2vw;
+        font-size: clamp(1.1rem,1.3vw,6rem);
     }
 }
