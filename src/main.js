@@ -17,6 +17,16 @@ function regionGenerator(array) {
         name_region.innerText = array[x].name;
         small_text.innerHTML = array[x].small_text;
 
+        item.addEventListener("click", () => {
+            let titulo = window.document.getElementById("titulo_sobre");
+            let image = window.document.getElementById("imagem_sobre");
+            let texto = window.document.getElementById("texto_sobre");
+
+            titulo.innerText = `Sobre ${array[x].name}:`;
+            image.src = array[x].vertical_image;
+            texto.innerHTML = array[x].large_text;
+        });
+
         containerText.appendChild(name_region);
         containerText.appendChild(small_text);
         item.appendChild(containerText);
@@ -36,4 +46,4 @@ const randomImage = (list, item) => {
      }
 }
 
-regionGenerator(data_region);b
+regionGenerator(data_region);
